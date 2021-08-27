@@ -11,7 +11,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-var tester = 5
+
+    @IBOutlet weak var catImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,19 @@ var tester = 5
         
     }
 
+    
+    @IBAction func peachButton(_ sender: UIButton) {
+        catImage.image = UIImage(named: "anotherCat")
+    }
+    
+    @IBAction func siameseCat(_ sender: UIButton) {
+        catImage.image = UIImage(named: "siameseCat")
+    }
+    
+    
+    
+    
+    
 
 }
 
