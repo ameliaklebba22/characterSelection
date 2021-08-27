@@ -11,7 +11,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+var tester = 5
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "waterWallpaper")!)
